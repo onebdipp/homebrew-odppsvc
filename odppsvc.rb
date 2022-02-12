@@ -12,11 +12,13 @@ class Odppsvc < Formula
   def install
 #    system "./configure", *std_configure_args, "--disable-silent-rules"
     bin.install "odppLink"
+    bin.install "odppsvc.jar"
+    bin.install "odppsvc"
     bin.install "config"
     bin.install "bin"
   end
 
   test do
-    echo "If successfully installed run odppLink from your command line to link this platform with OneDATA.Plus environment"
+    system "echo","If successfully installed run odppLink from your command line to link this platform with OneDATA.Plus environment"
   end
 end
