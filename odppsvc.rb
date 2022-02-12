@@ -7,13 +7,10 @@ class Odppsvc < Formula
   license ""
 
   # depends_on "cmake" => :build
+  depends_on "bash"
 
   def install
-    # ENV.deparallelize  # if your formula fails when building in parallel
-    # Remove unrecognized options if warned by configure
-    # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
     system "./configure", *std_configure_args, "--disable-silent-rules"
-    # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
     bin.install "odppLink"
     bin.install "odppsvc.properties"
     bin.install "odppsvc.jar"
