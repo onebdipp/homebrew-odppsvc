@@ -12,8 +12,8 @@ class Odppsvc < Formula
   def install
 #    system "./configure", *std_configure_args, "--disable-silent-rules"
     bin.install "odppLink"
-#    bin.install "odppsvc.properties"
-#    bin.install "odppsvc.jar"
+    bin.install "odppsvc.properties"
+    bin.install "odppsvc.jar"
   end
 
   test do
