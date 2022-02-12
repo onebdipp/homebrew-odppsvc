@@ -8,7 +8,6 @@ class Odppsvc < Formula
 
   # depends_on "cmake" => :build
   depends_on "bash"
-  depends_on java: '11'
 
   def install
 #    system "./configure", *std_configure_args, "--disable-silent-rules"
