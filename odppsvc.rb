@@ -2,8 +2,8 @@ require 'formula'
 class Odppsvc < Formula
   desc "Odppsvc Description "
   homepage "bdiplus.com"
-  url "https://github.com/onebdipp/od369/archive/refs/tags/Linux6.0.tar.gz"
-  sha256 "9a69371730bb427ddf0fc4cebe28c9e53b57f13375fa0a1a644a265d819fdd39"
+  url "https://github.com/onebdipp/od369/archive/refs/tags/odpp7.0.tar.gz"
+  sha256 "51630c49082a7f72fcfd307d12b302cc468017b1ee76529064fcc36cfeed1b2c"
   license "bdiplus-onedata-2022"
 
   # depends_on "cmake" => :build
