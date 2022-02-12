@@ -1,10 +1,10 @@
 require 'formula'
 class Odppsvc < Formula
-  desc "Odppsvc"
+  desc "Odppsvc Description "
   homepage "bdiplus.com"
   url "https://github.com/onebdipp/od369/archive/refs/tags/v5.0.tar.gz"
   sha256 "122c0cf7472096ad85db358bc8929d64422a3670d94cce5cdcdd0bdc50933330"
-  license ""
+  license "MIT"
 
   # depends_on "cmake" => :build
   depends_on "bash"
