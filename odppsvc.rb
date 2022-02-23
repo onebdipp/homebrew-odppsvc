@@ -11,7 +11,7 @@ class Odppsvc < Formula
 
   def install
     bin.install "odppLink"
-    bin.install "odppsvc.jar"
+    bin.install "odppservice"
     bin.install "odppsvc"
     bin.install "config"
     bin.install "lib"
