@@ -9,8 +9,6 @@ class Odppsvc < Formula
   # depends_on "cmake" => :build
   depends_on "bash"
   
-  cd $HOMEBREW_PREFIX/bin
-
   def install
     bin.install "odppLink"
     bin.install "odppStationSvc"
