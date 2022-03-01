@@ -9,7 +9,7 @@ class Odppsvc < Formula
   # depends_on "cmake" => :build
   depends_on "bash"
   
-  cd /home/linuxbrew/.linuxbrew/bin/
+  cd $HOMEBREW_PREFIX/bin
 
   def install
     bin.install "odppLink"
