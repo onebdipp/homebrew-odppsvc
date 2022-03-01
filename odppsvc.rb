@@ -17,7 +17,9 @@ class Odppsvc < Formula
     bin.install "lib"
     system "echo"," "
     system "echo","Check if the installation is successful using command - 'brew info odppsvc'"
-    system "echo","If successfully installed theb run command `odppLink` from your command line to link this platform with OneDATA.Plus environment"
+    system "echo","If successfully installed, then set the environment variable ODPPSVC_HOME with the installation path mentioned in the above command."
+    system "echo","Example: export ODPPSVC_HOME=<path>"
+    system "echo","Run command `odppLink` from your command line to link this platform with OneDATA.Plus environment"
     system "echo"," "
   end
 
