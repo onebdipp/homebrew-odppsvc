@@ -2,8 +2,8 @@ require 'formula'
 class Odppsvc < Formula
   desc "ODPP Client platform service manager "
   homepage "bdiplus.com"
-  url "https://github.com/onebdipp/clientcores/archive/refs/tags/odppcoreprod4.0.tar.gz"
-  sha256 "c6dc8bd6e36f122b52c3a972182bad6d0297dae60fa60d3957d0e7e0c219739e"
+  url "https://github.com/onebdipp/clientcores/archive/refs/tags/odppcoreprod5.0.tar.gz"
+  sha256 "6747569858433c946455ac8e9ccafe6fa8cd9eb5e4fd88ae1890154e425a10bc"
   license "bdiplus-onedata-2022"
 
   # depends_on "cmake" => :build
